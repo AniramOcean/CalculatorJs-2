@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator JS v2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="calculator">
+        <div class="display">
+            <input id="display" value="0" type="text" placeholder="100" readonly disabled>
+        </div>
+
+        <div class="digits__content">
+            <button id="ce" class="digit digit-horizontal digit-reset">CE</button>
+            <button id="c" class="digit digit-reset">C</button>
+            <button value="Multiplication" class="digit digit-math">&#247;</button>
+            <button class="digit digit-num">1</button>
+            <button class="digit digit-num">2</button>
+            <button class="digit digit-num">3</button>
+            <button value="Division" class="digit digit-math">&#215;</button>
+            <button class="digit digit-num">4</button>
+            <button class="digit digit-num">5</button>
+            <button class="digit digit-num">6</button>
+            <button value="Subtraction" class="digit digit-math">-</button>
+            <button class="digit digit-num">7</button>
+            <button class="digit digit-num">8</button>
+            <button class="digit digit-num">9</button>
+            <button value="Addition" class="digit digit-math">+</button>
+            <button class="digit digit-num">0</button>
+            <button id="Decimal" class="digit digit-decimal">.</button>
+            <button value="Result" id="result" class="digit digit-horizontal digit-math">=</button>
+        </div>
+    </div>
+
+    <div class="about">
+        <h1>Simple JS calculator</h1>
+        <button id="howToUse" class="about-btn">How to use</button>
+        <div>
+            <ul id="aboutList" class="about-list">
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
